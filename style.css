@@ -45,7 +45,7 @@ a {
 a:hover {
   background-color: #ff3b3b;
 }
-img {
+.tekbruh {
   position: absolute;
   left: -40%;
   bottom: 0;
@@ -133,9 +133,23 @@ h2 {
   animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   border-top: 2px solid lime;
 }
+.socialicons {
+  width: fit content;
+  display: flex;
+  justify-content: right;
+  gap: 1em;
+  margin-right: 2em;
+}
+.linkedin,
+.github,
+.instagram,
+.twitter {
+  width: 2em;
+  filter: invert();
+}
 
 @media (max-width: 1500px) {
-  img {
+  .tekbruh {
     bottom: -10em;
   }
   .articletext {
@@ -222,7 +236,7 @@ h2 {
   a {
     font-size: 15px;
   }
-  img {
+  .tekbruh {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -232,7 +246,7 @@ h2 {
   h2 {
     font-size: 3em;
   }
-  img {
+  .tekbruh {
     bottom: -3rem;
   }
   .articletext {
@@ -245,7 +259,7 @@ h2 {
   h2 {
     font-size: 3em;
   }
-  img {
+  .tekbruh {
     bottom: -3rem;
   }
   .articletext {

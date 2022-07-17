@@ -53,17 +53,16 @@ window.addEventListener("load", function () {
 function about() {
   let tekbruhabout = document.querySelector(".contentbody");
 
-  tekbruhabout.innerHTML = `<head>  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-/></head><div class="contentbody about">
+  tekbruhabout.innerHTML = `<div class="contentbody about">
   <div class="articletext abouttext">
+  I'm a Full Stack Developer with an expertise in <span>Javascript</span>, <span>jQuery</span>, <span>HTML</span> and <span>CSS</span>. I can also work with major frameworks like <span>Vue and Vuetify</span> and <span>node.Js</span>. I have worked on projects ranging from online stores, social networking sites, to gamification engines for the past two years. I am always looking for new opportunities and challenges.
           </div>
-  <div class="articletext abouttext2">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
-            ducimus quos voluptate porro architecto eligendi vero ipsum possimus
-            animi natus perferendis inventore quisquam soluta, omnis nemo
-            laborum quibusdam? Maxime, aspernatur.
-          </div>
+  <div class= socialicons>
+<img src="/img/github-square-brands.svg" alt="" class = "github">
+<img src="/img/linkedin-brands.svg" alt="" class = "linkedin">
+<img src="/img/instagram-square-brands.svg" alt="" class = "instagram">
+<img src="/img/twitter-brands.svg" alt="" class = "twitter">
+</div>
+        
   </div>`;
 }
